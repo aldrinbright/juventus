@@ -1,0 +1,128 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* Navigation */
+
+
+
+
+#navbar{
+    flex-direction: column;
+    height: 135px;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+   
+
+}
+
+
+/* home section  */
+
+
+#home{
+height: 329px;
+padding: 10px 70px;
+}
+#home::before{
+
+height: 485px;
+}
+
+#home p{
+font-size: 15px;
+
+
+}
+
+/* gallery */
+#gallery{
+
+    flex-direction: column;
+    
+}
+#gallery-container{
+    
+    height: 1317px;
+
+}
+
+#gallery .box{
+
+}
+
+
+
+
+
+/* sponsors  */
+
+#sponsors{
+    flex-wrap: wrap;
+    height: 576px;
+
+}
+
+#sopnsors img{
+    width: 60px;
+    padding: 20px;
+    height: auto;
+}
+
+#sponsors-section::before{
+    height: 629px;
+
+}
+
+/* contact  */
+
+
+#contact-box label{
+    width: 120px;
+    height: 20px;
+    margin-right: -10px;
+    font-size: 1.3rem;
+    margin-left: 37px;
+    padding: 5px;
+}
+#contact-box input{
+    
+
+    height: 26px;
+    width:  350px;
+    
+    margin-left: 5px;
+    font-size: 1.3rem;
+
+}
+
+#contact-box textarea{
+    
+    
+    width:  350px;
+    height: 190px;
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+
+/* footer  */
+
+
+/* utility classes  */
+
+.h-primary{
+
+    font-size: 25px;
+
+}
+
+.btn
+{
+    font-size: 13px;
+    padding: 4px 8px;
+}
